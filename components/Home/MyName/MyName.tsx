@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import Img from "../../smallComp/image/Img";
 export default function MyName(props: { finishedLoading: boolean }) {
   const router = useRouter();
   return (
@@ -20,6 +21,8 @@ export default function MyName(props: { finishedLoading: boolean }) {
       >
         Hi, my name is
       </motion.span> */}
+                    {/* <Img src={"/sketch.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} /> */}
+
       <motion.h1
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -52,9 +55,9 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-300 font-Header text-primary mt-10 tracking-wider"
       >
-        Senior Full Stack Developer a unique blend of creative thinking, solution engineering, and product development. 
+        Senior Full Stack Developer a unique blend of creative thinking, solution engineering, and product development.
         Skilled at balancing vision with execution, delivering user-friendly, pixel-perfect front-end work, while also fully managing
-        the design of API endpoints, DevOps, and MLOps on the back-end layer.
+        the design of API endpoints and database schema, DevOps, and MLOps on the back-end layer.
 
         {/* <br className="2xl:block hidden" />creating and deploying them, as well as implementing the
         front-end components to enable seamless user interactions. */}

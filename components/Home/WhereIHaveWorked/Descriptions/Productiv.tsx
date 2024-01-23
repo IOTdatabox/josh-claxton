@@ -6,18 +6,18 @@ export default function Productiv() {
   const tasks = [
     {
       text: "Spearheaded the development of a SaaS MVP, integrating React and Vue for dynamic front-end experiences and Node.js for robust server-side functionality.",
-      keywords: ["SaaS MVP", "React", "Node.js"],
+      keywords: ["SaaS MVP", "React", "Vue", "Node.js"],
     },
     {
       text: "Developed RESTful and GraphQL APIs using Node.js and Python, ensuring a robust back-end to front-end integration.",
-      keywords: ["RESTful", "GraphQL tasks", "Node.js", "Python"],
+      keywords: ["RESTful", "GraphQL", "Node.js", "Python"],
     },
     {
       text: "Led database schema design and query performance optimization for MySQL, PostgreSQL, and MongoDB, upholding top-tier data interactions and response times for front-end requests.",
       keywords: ["database schema", "MySQL", "PostgreSQL", "MongoDB"],
     },
     {
-      text: "Utilized advanced front-end state management patterns to build complex application states, leading to a more predictable UI behavior across large-scale projects.",
+      text: "Utilized the advanced front-end state management patterns to build complex application states, leading to a more predictable UI behavior across large-scale projects.",
       keywords: ["front-end state management patterns", "predictable UI behavior"],
     },
     {
