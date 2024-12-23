@@ -34,14 +34,14 @@ export default function SomethingIveBuilt() {
                       absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              <a href="https://getmyboart.com" target={"_blank"} rel="noreferrer">
+              <a href="https://www.demostack.com/" target={"_blank"} rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
                               transition-opacity opacity-30 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
 
-              <Img src={"/boat_renting.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/demostack.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -61,17 +61,17 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start md:items-end space-y-3"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-sub">Get My Boat </span>
-                <a href="https://getmyboat.com" target="_blank" rel="noopener noreferrer">
+                <span className="text-AAsecondary text-sub">DemoStack </span>
+                <a href="https://www.demostack.com/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-300 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Worldwide Board Renting Service
+                    Interactive Product Demo Software
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-300 text-left md:text-right ">
-                  I built over 40 web pages and architected and implemented booking, listing and matching functionalities.
-                  Also the project included an online payment system, advanced search by geolocation and user review system.
+                  I contributed to building Demostack, a platform that empowers sales teams with custom demo environments, using Next.js, AWS, and Vercel.
+                  The app simplifies creating, distributing, and tracking tailored demos, helping businesses close deals more effectively.
                 </p>
               </div>
               <ul
@@ -79,15 +79,9 @@ export default function SomethingIveBuilt() {
                text-subsub font-Text2 md:justify-end"
               >
                 <span className="pr-4 z-10">Next.js</span>
-                <span className="pr-4 z-10">React.js</span>
-                <span className="pr-4 z-10">Node.js</span>
-                <span className="pr-4 z-10">MobX</span>
+                <span className="pr-4 z-10">AWS</span>
+                <span className="pr-4 z-10">Vercel</span>
               </ul>
-              <div className="z-10 flex fle-row space-x-5 ">
-                <a href="https://getbyboat.com/" target={"_blank"} rel="noreferrer">
-                  <ExternalLink url={""} router={router} />
-                </a>
-              </div>
             </div>
           </div>
         </div>
@@ -100,13 +94,13 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <a href={"https://www.hipcamp.com/"} target="_blank" rel="noreferrer">
+              <a href={"https://senja.io/"} target="_blank" rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-              <Img src={"/parking_renting.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/senja.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -126,40 +120,27 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start  space-y-3 md:order-1"
             >
               <div className="flex flex-col space-y-1  z-10">
-                <span className="text-AAsecondary text-sub">Find Yourself Outside</span>
-                <a href="https://www.hipcamp.com/" target="_blank" rel="noopener noreferrer">
+                <span className="text-AAsecondary text-sub">Senja</span>
+                <a href="https://senja.io/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-300 text-AAsecondary font-bold text-sub hover:cursor-pointer">
-                    Parking Booking Service
+                    Platform To Collect, Manage and Share Testimonials
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-300 text-left ">
-                  I proposed a Next.js/Postgres/Prisma based app leveraging location APIs and serverless functions.
-                  Created database models to normalize parking data like lot locations, spaces, reservations.
-                  Built Next.js app with signup/payment integrations and dynamic spot selection.
-                  Integrated IoT beacons to passively track space usage through Bluetooth.
-                  Leveraged geofencing APIs to update space availability in real-time from mobile.
-                  Automated permit payments and notifications through webhooks.
+                  I developed Senja, an all-in-one testimonial management app, using the MERN stack (MongoDB, Express, React, Node.js) and Sanity CMS.
+                  This app helps creators collect, manage, and showcase testimonials to boost trust and drive results effortlessly.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-AAsecondary
                text-subsub font-Text2 md:justify-start"
               >
-                <span className="pr-4 z-10">Next.js</span>
-                <span className="pr-4 z-10">Serverless</span>
-                <span className="pr-4 z-10">Space API</span>
-                <span className="pr-4 z-10">IOT beacons</span>
-                <span className="pr-4 z-10">Payment Integraion</span>
-                <span className="pr-4 z-10">Supabase</span>
-
+                <span className="pr-4 z-10">Mern</span>
+                <span className="pr-4 z-10">Sanity</span>
+                <span className="pr-4 z-10">Shadcn UI</span>
               </ul>
-              <div className="z-10 flex fle-row space-x-5 ">
-                <a href="https://www.hipcamp.com/" target={"_blank"} rel="noreferrer">
-                  <ExternalLink url={""} router={router} />
-                </a>
-              </div>
             </div>
           </div>
         </div>
@@ -171,7 +152,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              <Link href={"https://www.luno.com/en/gb"}>
+              <Link href={"https://www.wealthfront.com/"}>
                 <a target="_blank"
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAsecondary 
@@ -179,7 +160,7 @@ export default function SomethingIveBuilt() {
                 ></a>
               </Link>
 
-              <Img src={"/crypto_exchange.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/wealthfront.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -199,35 +180,27 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start md:items-end space-y-3"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-sub">Luno</span>
-                <Link href={"https://www.luno.com/en/gb"}>
+                <span className="text-AAsecondary text-sub">WealthFront</span>
+                <Link href={"https://www.wealthfront.com/"}>
                   <a target="_blank" className=" md:text-gray-300 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Trustable Crypto Exhange Service
+                    Retirement Plan In WealthFront
                   </a>
                 </Link>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-300 text-left md:text-right">
-                  Developed the UI/UX for placing orders, account management and portfolio tracking using React and Next.js.
-                  Ensured smooth cross-device experience on web and mobile. Integrated payment gateways like Wyre, Moonpay for fiat on/off-ramps. Enabled crypto deposits/withdrawals using web3 APIs.
-                  Built admin dashboards to monitor system health, manage users/assets, detect fraud and generate compliance reports.
+                  I contributed to building key features in the Wealthfront app, focusing on retirement planning and supporting other financial tools like automated bond ladders and automated stock investing. Leveraging Next.js and React,
+                  I helped create a seamless, user-friendly experience for wealth management and long-term financial planning.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-AAsecondary md:text-AAsecondary
                text-subsub font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">Portfolio Tsracking</span>
-                <span className="pr-4 z-10">web3 APIs</span>
-                <span className="pr-4 z-10">UI/UX</span>
-                <span className="pr-4 z-10">MongoDB</span>
-                <span className="pr-4 z-10">Node.js</span>
+                <span className="pr-4 z-10">Next.js</span>
+                <span className="pr-4 z-10">React</span>
+                <span className="pr-4 z-10">Shadcn UI</span>
               </ul>
-              <div className="z-10 flex fle-row space-x-5 ">
-                <a href="https://www.luno.com/en/gb" target={"_blank"} rel="noreferrer">
-                  <ExternalLink url={""} router={router} />
-                </a>
-              </div>
             </div>
           </div>
         </div>
@@ -240,14 +213,14 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <Link href={"https://pfefferundfrost.de/en"}>
+              <Link href={"https://thedocapp.net/"}>
                 <a target="_blank"
                   className="absolute w-full h-full rounded bg-AAsecondary 
            transition-opacity opacity-10 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></a>
               </Link>
 
-              <Img src={"/gift_shopping.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/thedocapp.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -267,37 +240,27 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start  space-y-3 md:order-1"
             >
               <div className="flex flex-col space-y-1  z-10">
-                <span className="text-AAsecondary text-sub">Pfeffer & Frost</span>
-                <Link href={"https://pfefferundfrost.de/en"} passHref>
+                <span className="text-AAsecondary text-sub">TheDocApp</span>
+                <Link href={"https://thedocapp.net/"} passHref>
                   <a target="_blank" rel="noopener noreferrer" className="md:text-gray-300 text-AAsecondary font-bold text-sub hover:cursor-pointer">
-                    Sustainable Business Gifts
+                    Patient Management System
                   </a>
                 </Link>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-300 text-left ">
-                  Built an AI-powered personalized gifting site leveraging Luminate API. The recommendation engine analyzed shopper behavior to suggest perfect gifts.
-                  Optimized the shopping experience on these sites using A/B testing and analytics to improve user flows, up-selling, and conversion rates.
-                  Ensured seamless checkout and payment experiences integrating with Braintree, PayPal and leading card gateways.
-                  Leveraged headless commerce architectures like Magento PWA Studio and Commerce.js for performance and flexibility across devices.
-
-
+                  I built a HIPAA-accredited patient management solution using ASP.NET Core, MS SQL, Azure, and React to improve how healthcare providers manage patient data securely and efficiently.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-AAsecondary md:text-AAsecondary
                text-subsub font-Text2 md:justify-start"
               >
-                <span className="pr-4 z-10">Luminate API</span>
-                <span className="pr-4 z-10">A/B testing</span>
-                <span className="pr-4 z-10">Payment Gateway</span>
-                <span className="pr-4 z-10">Commerce.js</span>
+                <span className="pr-4 z-10">Asp.Net Core</span>
+                <span className="pr-4 z-10">MS SQL</span>
+                <span className="pr-4 z-10">React</span>
+                <span className="pr-4 z-10">Azure</span>
               </ul>
-              <div className="z-10 flex fle-row space-x-5 ">
-                <a href="https://pfefferundfrost.de/en" target={"_blank"} rel="noreferrer">
-                  <ExternalLink url={""} router={router} />
-                </a>
-              </div>
             </div>
           </div>
         </div>
@@ -309,8 +272,18 @@ export default function SomethingIveBuilt() {
             className="hidden bg-AAprimary z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
-            <div className="relative rounded w-full h-full col-span-7 ">
-              <Img src={"/wms1.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+
+
+            <div className="relative rounded w-full h-[80%] col-span-7 ">
+              <Link href={"https://www.shoppingbagsdirect.com/"}>
+                <a target="_blank"
+                  // onClick={}
+                  className="absolute w-full h-full rounded bg-AAsecondary 
+                              transition-opacity opacity-10 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></a>
+              </Link>
+
+              <Img src={"/shoppingbag.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
           <div
@@ -318,26 +291,27 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start md:items-end space-y-3"
           >
             <div className="flex flex-col space-y-1 md:items-end z-10">
-              <span className="text-AAsecondary text-sub">WMS</span>
-              <span className=" md:text-gray-300 text-AAsecondary font-bold text-sub">
-                WMS with RFID/SKU tracking system
-              </span>
+              <span className="text-AAsecondary text-sub">ShoppingBagsDirect</span>
+
+              <Link href={"https://www.shoppingbagsdirect.com/"} passHref>
+                  <a target="_blank" rel="noopener noreferrer" className="md:text-gray-300 text-AAsecondary font-bold text-sub hover:cursor-pointer">
+                  Wholesale Shopping Paper Bags
+                  </a>
+                </Link>
+
             </div>
             <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
               <p className="text-gray-300 md:text-gray-300 text-left md:text-right">
-                A leading retailer needed to modernize their warehouse management system (WMS) to improve inventory accuracy and fulfillment speed.
-                proposed a cloud-native solution and developed Node API, MongoDB schema, React admin app. I integrated Zebra RFID printers/readers via IoT Core MQTT.
+                I played a key role in designing and developing a bag shopping e-commerce platform using ASP.NET, MS SQL, and Azure. The project aimed to deliver a seamless shopping experience for customers while maintaining a robust, scalable backend infrastructure.
               </p>
             </div>
             <ul
               className="flex flex-wrap w-full text-AAsecondary md:text-AAsecondary
                text-subsub font-Text2 md:justify-end"
             >
-              <span className="pr-4 z-10">WMS</span>
-              <span className="pr-4 z-10">Zebra RFID</span>
-              <span className="pr-4 z-10">IOT Core</span>
-              <span className="pr-4 z-10">MQTT</span>
-              <span className="pr-4 z-10">Analysis</span>
+              <span className="pr-4 z-10">Asp.Net Core</span>
+              <span className="pr-4 z-10">MS SQL</span>
+              <span className="pr-4 z-10">Azure</span>
             </ul>
           </div>
 
